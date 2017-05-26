@@ -14,13 +14,14 @@ go get github.com/anaskhan96/go-vapidkeys
 package main
 
 import (
+	"fmt"
 	"github.com/anaskhan96/go-vapidkeys"
 )
 
 func main() {
-	privKey, pubKey, _ := vapidkeys.Generate()
-	println(privKey)
-	println(pubKey)
+	privateKey, publicKey, _ := vapidkeys.Generate()
+	fmt.Println("Vapid Private Key:", privateKey)
+	fmt.Println("Vapid Public Key:", publicKey)
 }
 
 ```
