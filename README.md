@@ -1,4 +1,5 @@
 # go-vapidkeys
+[![Build Status](https://travis-ci.org/anaskhan96/go-vapidkeys.svg?branch=master)](https://travis-ci.org/anaskhan96/go-vapidkeys)
 
 A small package in Go to generate VAPID public and private keys required for web push.
 
