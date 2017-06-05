@@ -19,10 +19,14 @@ package main
 import (
 	"fmt"
 	"github.com/anaskhan96/go-vapidkeys"
+	"log"
 )
 
 func main() {
-	privateKey, publicKey, _ := vapidkeys.Generate()
+	privateKey, publicKey, err := vapidkeys.Generate()
+	if err != nil {
+		log.Fatal(err)
+	}
 	fmt.Println("Vapid Private Key:", privateKey)
 	fmt.Println("Vapid Public Key:", publicKey)
 }
