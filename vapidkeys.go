@@ -6,7 +6,7 @@ import (
 	"github.com/enceve/crypto/dh/ecdh"
 )
 
-// This function generates a new set of vapid keys and returns them along with the error message
+// Generate generates a new set of vapid keys and returns them along with the error message
 func Generate() (vapidPrivateKey string, vapidPublicKey string, err error) {
 	curve := ecdh.GenericCurve(elliptic.P256())
 	privateKey, publicKey, err := curve.GenerateKey(nil)
