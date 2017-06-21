@@ -11,6 +11,8 @@ A small package in Go to generate VAPID public and private keys required for web
 go get github.com/anaskhan96/go-vapidkeys
 ```
 
+Run `go test` in the package's directory to run tests.
+
 ## Usage
 
 ```go
