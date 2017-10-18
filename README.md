@@ -3,7 +3,7 @@
 [![GoDoc](https://godoc.org/github.com/anaskhan96/go-vapidkeys?status.svg)](https://godoc.org/github.com/anaskhan96/go-vapidkeys)
 [![Go Report Card](https://goreportcard.com/badge/github.com/anaskhan96/go-vapidkeys)](https://goreportcard.com/report/github.com/anaskhan96/go-vapidkeys)
 
-A small package in Go to generate VAPID public and private keys required for sending web push notifications (HTTP/2.0 protocol)
+A small package in Go to generate VAPID public and private keys required for sending web push notifications (HTTP/2 Server Push).
 
 ## Installation
 
